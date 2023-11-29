@@ -32,8 +32,8 @@ public class AssignmentOperator : MonoBehaviour
         Debug.Log($"a /= 60 : {a}");
         a %= 50;
         Debug.Log($"a %= 50 : {a}");
-        a %= 40;
-        Debug.Log($"a %= 40 : {a}");
+        a &= 40;
+        Debug.Log($"a &= 40 : {a}");
         a |= 30;
         Debug.Log($"a |= 30 : {a}");
         a ^= 20;
